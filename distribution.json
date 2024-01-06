@@ -2,26 +2,26 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1193279322404958288",
+    "smallImageText": "엘든 월드",
+    "smallImageKey": "icon"
   },
   "servers": [
     {
       "id": "lden-world-1.19.2",
-      "name": "lden-world (Minecraft 1.19.2)",
-      "description": "lden-world Running Minecraft 1.19.2 (Forge v43.3.0)",
-      "icon": null,
+      "name": "엘든 월드 (1.19.2)",
+      "description": "엘든 월드 서버를 접속하기 위한 모드팩이에요.",
+      "icon": "https://cdn.discordapp.com/app-assets/1193279322404958288/1193279885414772806.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "ldenworld.kro.kr",
       "minecraftVersion": "1.19.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Lden world",
+        "largeImageText": "플레이 중",
+        "largeImageKey": "icon"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.0",

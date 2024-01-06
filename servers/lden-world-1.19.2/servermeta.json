@@ -2,17 +2,17 @@
   "$schema": "file:///D:/Launcher_Comm/Lden/Lden-World-Distribution/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "lden-world (Minecraft 1.19.2)",
-    "description": "lden-world Running Minecraft 1.19.2 (Forge v43.3.0)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "name": "엘든 월드 (1.19.2)",
+    "description": "엘든 월드 서버를 접속하기 위한 모드팩이에요.",
+    "icon": "https://cdn.discordapp.com/app-assets/1193279322404958288/1193279885414772806.png",
+    "address": "ldenworld.kro.kr",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Lden world",
+      "largeImageText": "플레이 중",
+      "largeImageKey": "icon"
     },
-    "mainServer": false,
-    "autoconnect": false
+    "mainServer": true,
+    "autoconnect": true
   },
   "forge": {
     "version": "43.3.0"
